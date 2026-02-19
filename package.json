@@ -1,7 +1,7 @@
 {
   "homepage": "https://wee08.github.io/MacOs_Portfolio",
   "name": "macos-portfolio",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
