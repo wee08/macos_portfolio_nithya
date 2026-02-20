@@ -5,7 +5,7 @@ import { dirname, resolve } from "path";
 import { fileURLToPath } from "url";
 
 export default defineConfig({
-  base: "/",
+  base: "/macos_portfolio_nithya/",
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
