@@ -2,13 +2,14 @@ import React from "react";
 import dayjs from "dayjs";
 import { navIcons, navLinks } from "#constants";
 import useWindowStore from "#store/window";
+import logo from "../../public/images/logo.svg";
 const Navbar = () => {
   const { openWindow } = useWindowStore();
 
   return (
     <nav>
       <div>
-        <img src="/images/logo.svg" alt="logo" />
+        <img src={logo} alt="logo" />
         <p className="font-bold">Nithya's Portfolio</p>
 
         <ul>

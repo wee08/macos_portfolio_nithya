@@ -2,6 +2,7 @@ import WindowControls from "#components/WindowControls";
 import { socials } from "#constants";
 import WindowWrapper from "#hoc/WindowWrapper";
 
+import manut from "../../public/images/manut.png";
 const Contact = () => {
   return (
     <>
@@ -11,11 +12,7 @@ const Contact = () => {
       </div>
 
       <div className="p-5 space-y-5">
-        <img
-          src="/images/manut.png"
-          alt="Nithya"
-          className="w-20 rounded-full"
-        />
+        <img src={manut} alt="Nithya" className="w-20 rounded-full" />
 
         <h3>Let's Connect</h3>
         <p>Got an idea? A bug to squash? Or want something? I'm in.</p>

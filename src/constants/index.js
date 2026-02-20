@@ -1,3 +1,47 @@
+import wifiIcon from "../../public/icons/wifi.svg";
+import searchIcon from "../../public/icons/search.svg";
+import userIcon from "../../public/icons/user.svg";
+import modeIcon from "../../public/icons/mode.svg";
+
+import finder from "../../public/images/finder.png";
+import safari from "../../public/images/safari.png";
+import photos from "../../public/images/photos.png";
+import contact from "../../public/images/contact.png";
+import terminal from "../../public/images/terminal.png";
+import trash from "../../public/images/trash.png";
+
+import github from "../../public/icons/github.svg";
+import upwork from "../../public/icons/upwork.svg";
+import instagram from "../../public/icons/instagram.svg";
+import linkedin from "../../public/icons/linkedin.svg";
+
+import manut1 from "../../public/images/manut-1.png";
+import manut2 from "../../public/images/manut-2.png";
+import manut3 from "../../public/images/manut-3.png";
+import manut4 from "../../public/images/manut-4.png";
+import manut5 from "../../public/images/manut-5.png";
+
+import blog1 from "../../public/images/blog1.ico";
+import blog2 from "../../public/images/blog2.svg";
+
+import gicon1 from "../../public/icons/gicon1.svg";
+import fileIcon from "../../public/icons/file.svg";
+import gicon2 from "../../public/icons/gicon2.svg";
+import gicon4 from "../../public/icons/gicon4.svg";
+import gicon5 from "../../public/icons/gicon5.svg";
+
+import workLocation from "../../public/icons/work.svg";
+
+import infoIcon from "../../public/icons/info.svg";
+import image from "../../public/images/image.png";
+import txt from "../../public/images/txt.png";
+
+import pdf from "../../public/images/pdf.png";
+import trash1 from "../../public/images/trash-1.png";
+import trash2 from "../../public/images/trash-2.png";
+import folder from "../../public/images/folder.png";
+import hotelbooking from "../../public/images/hotel-booking.png";
+import agencyai from "../../public/images/agencyai.png";
 const navLinks = [
   {
     id: 1,
@@ -19,19 +63,19 @@ const navLinks = [
 const navIcons = [
   {
     id: 1,
-    img: "/icons/wifi.svg",
+    img: wifiIcon,
   },
   {
     id: 2,
-    img: "/icons/search.svg",
+    img: searchIcon,
   },
   {
     id: 3,
-    img: "/icons/user.svg",
+    img: userIcon,
   },
   {
     id: 4,
-    img: "/icons/mode.svg",
+    img: modeIcon,
   },
 ];
 
@@ -39,37 +83,37 @@ const dockApps = [
   {
     id: "finder",
     name: "Portfolio", // was "Finder"
-    icon: "finder.png",
+    icon: finder,
     canOpen: true,
   },
   {
     id: "safari",
     name: "Articles", // was "Safari"
-    icon: "safari.png",
+    icon: safari,
     canOpen: true,
   },
   {
     id: "photos",
     name: "Gallery", // was "Photos"
-    icon: "photos.png",
+    icon: photos,
     canOpen: true,
   },
   {
     id: "contact",
     name: "Contact", // or "Get in touch"
-    icon: "contact.png",
+    icon: contact,
     canOpen: true,
   },
   {
     id: "terminal",
     name: "Skills", // was "Terminal"
-    icon: "terminal.png",
+    icon: terminal,
     canOpen: true,
   },
   {
     id: "trash",
     name: "Archive", // was "Trash"
-    icon: "trash.png",
+    icon: trash,
     canOpen: false,
   },
 ];
@@ -79,14 +123,14 @@ const blogPosts = [
     id: 1,
     date: "Dec 2, 2025",
     title: "Agency AI portfolio project",
-    image: "/images/blog1.ico",
+    image: blog1,
     link: "#",
   },
   {
     id: 2,
     date: "Aug 28, 2025",
     title: "Hotel Booking Landing page",
-    image: "/images/blog2.svg",
+    image: blog2,
     link: "#",
   },
 ];
@@ -116,28 +160,28 @@ const socials = [
   {
     id: 1,
     text: "Github",
-    icon: "/icons/github.svg",
+    icon: github,
     bg: "#f4656b",
     link: "https://github.com/wee08",
   },
   {
     id: 2,
     text: "Upwork",
-    icon: "/icons/upwork.svg",
+    icon: upwork,
     bg: "#4bcb63",
     link: "https://www.upwork.com/freelancers/~0113d07c287fbe066a?viewMode=1",
   },
   {
     id: 3,
     text: "Instagram",
-    icon: "/icons/instagram.svg",
+    icon: instagram,
     bg: "#ff866b",
     link: "https://www.instagram.com/manut_0820/",
   },
   {
     id: 4,
     text: "LinkedIn",
-    icon: "/icons/linkedin.svg",
+    icon: linkedin,
     bg: "#05b6f6",
     link: "https://kh.linkedin.com/in/sean-manutnithya-855169380",
   },
@@ -146,27 +190,27 @@ const socials = [
 const photosLinks = [
   {
     id: 1,
-    icon: "/icons/gicon1.svg",
+    icon: gicon1,
     title: "Library",
   },
   {
     id: 2,
-    icon: "/icons/gicon2.svg",
+    icon: gicon2,
     title: "Memories",
   },
   {
     id: 3,
-    icon: "/icons/file.svg",
+    icon: fileIcon,
     title: "Places",
   },
   {
     id: 4,
-    icon: "/icons/gicon4.svg",
+    icon: gicon4,
     title: "People",
   },
   {
     id: 5,
-    icon: "/icons/gicon5.svg",
+    icon: gicon5,
     title: "Favorites",
   },
 ];
@@ -174,23 +218,23 @@ const photosLinks = [
 const gallery = [
   {
     id: 1,
-    img: "/images/manut-1.png",
+    img: manut1,
   },
   {
     id: 2,
-    img: "/images/manut-2.png",
+    img: manut2,
   },
   {
     id: 3,
-    img: "/images/manut-3.png",
+    img: manut3,
   },
   {
     id: 4,
-    img: "/images/manut-4.png",
+    img: manut4,
   },
   {
     id: 5,
-    img: "/images/manut-1.png",
+    img: manut5,
   },
 ];
 
@@ -209,58 +253,13 @@ const WORK_LOCATION = {
   id: 1,
   type: "work",
   name: "Work",
-  icon: "/icons/work.svg",
+  icon: workLocation,
   kind: "folder",
   children: [
-    // ▶ Project 1
-    // {
-    //   id: 5,
-    //   name: "Ecommerce site",
-    //   icon: "/images/folder.png",
-    //   kind: "folder",
-    //   position: "top-10 left-5", // icon position inside Finder
-    //   windowPosition: "top-[5vh] left-5", // optional: Finder window position
-    //   children: [
-    //     {
-    //       id: 1,
-    //       name: "Nithya Project.txt",
-    //       icon: "/images/txt.png",
-    //       kind: "file",
-    //       fileType: "txt",
-    //       position: "top-5 left-10",
-    //       description: [
-    //         "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-    //         "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-    //         "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-    //         "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
-    //       ],
-    //     },
-    //     {
-    //       id: 2,
-    //       name: "nike.com",
-    //       icon: "/images/safari.png",
-    //       kind: "file",
-    //       fileType: "url",
-    //       href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
-    //       position: "top-10 right-20",
-    //     },
-    //     {
-    //       id: 4,
-    //       name: "nike.png",
-    //       icon: "/images/image.png",
-    //       kind: "file",
-    //       fileType: "img",
-    //       position: "top-52 right-80",
-    //       imageUrl: "/images/project-1.png",
-    //     },
-    //   ],
-    // },
-
-    // ▶ Project 2
     {
       id: 6,
       name: "Hotel booking site",
-      icon: "/images/folder.png",
+      icon: folder,
       kind: "folder",
       position: "top-52 right-80",
       windowPosition: "top-[20vh] left-7",
@@ -268,7 +267,7 @@ const WORK_LOCATION = {
         {
           id: 1,
           name: "hotel-booking Project.txt",
-          icon: "/images/txt.png",
+          icon: txt,
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
@@ -282,7 +281,7 @@ const WORK_LOCATION = {
         {
           id: 2,
           name: "hotel-booking",
-          icon: "/images/safari.png",
+          icon: safari,
           kind: "file",
           fileType: "url",
           href: "https://wee08.github.io/hotel-booking/",
@@ -291,11 +290,11 @@ const WORK_LOCATION = {
         {
           id: 4,
           name: "hotel-booking.png",
-          icon: "/images/image.png",
+          icon: image,
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/hotel-booking.png",
+          imageUrl: hotelbooking,
         },
       ],
     },
@@ -304,7 +303,7 @@ const WORK_LOCATION = {
     {
       id: 7,
       name: "Agency AI site",
-      icon: "/images/folder.png",
+      icon: folder,
       kind: "folder",
       position: "top-10 left-80",
       windowPosition: "top-[33vh] left-7",
@@ -312,7 +311,7 @@ const WORK_LOCATION = {
         {
           id: 1,
           name: "Agency.ai Project.txt",
-          icon: "/images/txt.png",
+          icon: txt,
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
@@ -326,7 +325,7 @@ const WORK_LOCATION = {
         {
           id: 2,
           name: "Agency.ai",
-          icon: "/images/safari.png",
+          icon: safari,
           kind: "file",
           fileType: "url",
           href: "https://wee08.github.io/Agency-ai/",
@@ -335,11 +334,11 @@ const WORK_LOCATION = {
         {
           id: 4,
           name: "agency.ai.png",
-          icon: "/images/image.png",
+          icon: image,
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/agencyai.png",
+          imageUrl: agencyai,
         },
       ],
     },
@@ -350,45 +349,45 @@ const ABOUT_LOCATION = {
   id: 2,
   type: "about",
   name: "About me",
-  icon: "/icons/info.svg",
+  icon: infoIcon,
   kind: "folder",
   children: [
     {
       id: 1,
       name: "me.png",
-      icon: "/images/image.png",
+      icon: image,
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/manut-1.png",
+      imageUrl: manut1,
     },
     {
       id: 2,
       name: "me.png",
-      icon: "/images/image.png",
+      icon: image,
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/manut-2.png",
+      imageUrl: manut2,
     },
     {
       id: 3,
       name: "me.png",
-      icon: "/images/image.png",
+      icon: image,
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/manut-3.png",
+      imageUrl: manut3,
     },
     {
       id: 4,
       name: "about-me.txt",
-      icon: "/images/txt.png",
+      icon: txt,
       kind: "file",
       fileType: "txt",
       position: "top-40 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/manut-4.png",
+      image: manut4,
       description: [
         "Hey! I'm Nithya 👋 — a Frontend Developer who loves building sleek, interactive websites that people genuinely enjoy using.",
         "I work primarily with JavaScript and React, creating smooth, responsive experiences with attention to detail.",
@@ -402,13 +401,13 @@ const RESUME_LOCATION = {
   id: 3,
   type: "resume",
   name: "Resume",
-  icon: "/icons/file.svg",
+  icon: fileIcon,
   kind: "folder",
   children: [
     {
       id: 1,
       name: "Resume.pdf",
-      icon: "/images/pdf.png",
+      icon: pdf,
       kind: "file",
       fileType: "pdf",
       // you can add `href` if you want to open a hosted resume
@@ -421,26 +420,26 @@ const TRASH_LOCATION = {
   id: 4,
   type: "trash",
   name: "Trash",
-  icon: "/icons/trash.svg",
+  icon: trash,
   kind: "folder",
   children: [
     {
       id: 1,
       name: "trash1.png",
-      icon: "/images/image.png",
+      icon: image,
       kind: "file",
       fileType: "img",
       position: "top-10 left-10",
-      imageUrl: "/images/trash-1.png",
+      imageUrl: trash1,
     },
     {
       id: 2,
       name: "trash2.png",
-      icon: "/images/image.png",
+      icon: image,
       kind: "file",
       fileType: "img",
       position: "top-40 left-80",
-      imageUrl: "/images/trash-2.png",
+      imageUrl: trash2,
     },
   ],
 };

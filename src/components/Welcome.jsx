@@ -1,4 +1,3 @@
-import { Subtitles } from "lucide-react";
 import gsap from "gsap";
 import React, { useRef } from "react";
 import { useGSAP } from "@gsap/react";

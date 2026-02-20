@@ -1,7 +1,8 @@
 import WindowControls from "#components/WindowControls";
 import WindowWrapper from "#hoc/WindowWrapper";
 import { Download, Scale } from "lucide-react";
-import React from "react";
+
+import resume from "../../public/files/resume.pdf";
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/Page/AnnotationLayer.css";
@@ -20,7 +21,7 @@ const Resume = () => {
         <h2>Resume.pdf</h2>
 
         <a
-          href="files/resume.pdf"
+          href={resume}
           download
           className="cursor-pointer"
           title="Download resume">

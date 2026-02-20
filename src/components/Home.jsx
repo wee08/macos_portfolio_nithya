@@ -5,6 +5,8 @@ import clsx from "clsx";
 import useWindowStore from "#store/window";
 import useLocationStore from "#store/location";
 
+import folder from "../../public/images/folder.png";
+
 const projects = locations.work?.children ?? [];
 const Home = () => {
   const { setActiveLocation } = useLocationStore();
@@ -27,7 +29,7 @@ const Home = () => {
             key={project.id}
             className={clsx("group folder", project.windowPosition)}
             onClick={() => handleOpenProjectFinder(project)}>
-            <img src="/images/folder.png" alt={project.name} />
+            <img src={folder} alt={project.name} />
             <p>{project.name}</p>
           </li>
         ))}
