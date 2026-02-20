@@ -5,7 +5,6 @@ import WindowWrapper from "#hoc/WindowWrapper";
 const Gallery = () => {
   const data = gallery;
 
-  console.log(data);
   return (
     <>
       <div id="window-header">
